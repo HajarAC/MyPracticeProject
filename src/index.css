@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Handjet:wght@400;700&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
 }
@@ -132,10 +136,13 @@ input:focus {
   background-color: rgb(175, 175, 175);
 }
 .no-div {
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin: 4rem;
   width: 66.66%;
 }
+
 .h2 {
   font-size: larger;
   font-weight: bold;
